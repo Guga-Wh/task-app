@@ -2,7 +2,7 @@ const mongoose  = require('mongoose')
 const Event = require('./event')
 const bcrypt = require('bcryptjs')
 const validator = require('validator')
-
+    
 
 
 const userSchema = new mongoose.Schema({
